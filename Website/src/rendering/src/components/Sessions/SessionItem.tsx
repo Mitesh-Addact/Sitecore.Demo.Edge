@@ -69,6 +69,7 @@ const SessionItem = (props: SessionItemProps): JSX.Element => {
         <div className="image-hover-zoom" style={getImageStyles(props.session)}></div>
         {featuredIcon}
         <div className="item-details item-details-left">
+          <div>title</div>
           <Text tag="div" className="item-title" field={props.session.name} />
           {day}
           {timeSlot}
